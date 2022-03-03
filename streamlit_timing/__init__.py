@@ -1,7 +1,7 @@
 import asyncio
 
-from .session_info import get_this_session
 from .eventloop import get_server_event_loop
+from .session_info import get_this_session
 
 
 def delayed_rerun(delay: float) -> None:
